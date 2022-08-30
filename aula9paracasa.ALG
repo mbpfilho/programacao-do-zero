@@ -1,0 +1,28 @@
+Algoritmo "aula 10 atividade 2"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 8/30/2022
+Var
+// Seção de Declarações das variáveis 
+n1,n2,n3,mediafinal:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   escreval("Digite a nota de matemática")
+   leia(n1)
+   escreval("Digite a nota de física")
+   leia(n2)
+   escreval("Digite a nota de química")
+   leia(n3)
+   
+   mediafinal <- (n1+n2+n3)/3
+   
+   se(mediafinal>=8)entao
+   escreval("Você tem direito ao computador")
+   senao
+   escreval("Você näo tem direito ao computador")
+   fimse
+
+Fimalgoritmo
